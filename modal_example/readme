@@ -1,0 +1,4 @@
+https://www.drupal.org/node/2488192
+
+custom Ajax link-
+<p><a class="use-ajax" data-dialog-options="{&quot;width&quot;:500,&quot;height&quot;:500}" data-dialog-type="modal" href="/drupal8/modal-demo"><img alt="" class="image-style-large" src="http://localhost:8888/drupal8/sites/default/files/styles/large/public/2017-12/images.jpg" typeof="foaf:Image" /> </a></p>
