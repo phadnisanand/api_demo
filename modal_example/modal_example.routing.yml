@@ -1,0 +1,24 @@
+modal-demo-example:
+  path: '/modal-demo'
+  defaults:
+    _controller: '\Drupal\modal_example\Controller\ModalExampleController::showdemo'
+    _title: 'modal Example'
+  requirements:
+    _permission: 'access content'
+
+modal-demo-example_content:
+  path: '/modal-demo-content'
+  defaults:
+    _controller: '\Drupal\modal_example\Controller\ModalExampleController::modalContent'
+    _title: 'modal Example modalContent'
+  requirements:
+    _permission: 'access content'
+
+modal-demo-example-custom:
+  path: '/modal-demo-custom'
+  defaults:
+    _controller: '\Drupal\modal_example\Controller\ModalExampleController::showcustomdemo'
+    _title: 'Custom Example'
+  requirements:
+    _permission: 'access content'
+

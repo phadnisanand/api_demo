@@ -1,0 +1,9 @@
+tour_example_description:
+  path: 'demo_tour'
+  options:
+    _admin_route: TRUE
+  defaults:
+    _controller: '\Drupal\tour_anand\Controller\TourDemoController::description'
+    _title: 'Tour Demo'
+  requirements:
+    _access: 'TRUE'
